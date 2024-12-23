@@ -56,7 +56,7 @@ export const SectionVideo = () => {
             ></video>
           </div>
           <div className="item-video md:flex md:justify-center  md:flex-col md:px-8">
-            <h2 className="text-center text-cyan-600 font-bold text-xl md:text-left md:mb-4 md:text-3xl">
+            <h2 className="text-center text-sky-500 font-bold text-xl md:text-left md:mb-4 md:text-3xl">
               Razones para posicionar tu clínica en Google
             </h2>
             {Razones.map((item, i) => (
