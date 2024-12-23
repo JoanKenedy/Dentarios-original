@@ -2,6 +2,7 @@
   "name": "dentarios",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://dentarios.com.mx",
   "type": "module",
   "scripts": {
     "dev": "vite",

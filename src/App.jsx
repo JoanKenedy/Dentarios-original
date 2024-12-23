@@ -3,6 +3,7 @@ import { PrincipalLayout } from "./layouts/PrincipalLayout";
 import { Home } from "./pages/Home";
 import { CursoMadrid } from "./pages/CursoMadrid";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/curso-madrid",
-        element: <CursoMadrid />,
+        element: <CursoMadrid/>,
       },
     ],
   },
