@@ -63,7 +63,6 @@ export const Header = () => {
                 >
                   <a
                     href={data.link}
-                    target={data.name === "Academy" ? "_blank" : "_parent"}
                     onClick={() => setIsOpenMenu(!isOpenMenu)}
                     rel="noreferrer noopener"
                   >

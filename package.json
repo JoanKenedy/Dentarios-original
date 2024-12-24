@@ -2,12 +2,11 @@
   "name": "dentarios",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dentarios.com.mx",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint --fix . --ext .js,.jsx",
+    "lint": "eslint .",
     "preview": "vite preview",
     "format": "prettier --write ."
   },
