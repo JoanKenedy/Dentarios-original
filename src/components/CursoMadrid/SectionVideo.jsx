@@ -52,7 +52,7 @@ export const SectionVideo = () => {
               controls
               lopp
               muted
-              className="h-[500px]"
+              className="h-300px md:h-[500px]"
             ></video>
           </div>
           <div className="item-video md:flex md:justify-center  md:flex-col md:px-8">
