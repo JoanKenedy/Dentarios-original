@@ -44,7 +44,7 @@ export const SectionVideo = () => {
   ];
   return (
     <>
-      <section>
+      <section id="razones">
         <div className="container-video md:grid md:grid-cols-2 md:max-w-7xl md:py-0">
           <div className="item-video">
             <video

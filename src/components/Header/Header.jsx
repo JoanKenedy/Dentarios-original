@@ -10,32 +10,23 @@ export const Header = () => {
     {
       id: 1,
       name: "Inicio",
-      link: "/",
-    },
-    {
-      id: 2,
-      name: "Curso Madrid",
       link: "/curso-madrid",
     },
+
     {
       id: 3,
-      name: "Beneficios",
-      link: "#beneficios",
+      name: "Razones",
+      link: "#razones",
     },
     {
       id: 4,
-      name: "Servicios",
+      name: "Historia",
       link: "#servicios",
     },
     {
       id: 5,
-      name: "Academy",
-      link: "https://academy.dentarios.com.mx/",
-    },
-    {
-      id: 6,
-      name: "Testimonios",
-      link: "#testimonios",
+      name: "Contacto",
+      link: "#contacto",
     },
   ];
   return (

@@ -3,7 +3,7 @@ import Logo from "../../assets/images/logo-white.png";
 export const Resena = () => {
   return (
     <>
-      <section>
+      <section id="historia">
         <div className="container-reseña w-full py-4 md:grid md:grid-cols-2 md:max-w-7xl md:gap-8 md:py-14">
           <div className="item-resena flex justify-center items-center flex-col gap-3">
             <img src={Logo} alt="" className="max-w-[200px] md:max-w-[320px]" />

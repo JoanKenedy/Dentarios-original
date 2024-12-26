@@ -18,7 +18,7 @@ export const Formulario = () => {
   };
   return (
     <>
-      <div className="formulario w-full py-5 md:py-14">
+      <div className="formulario w-full py-5 md:py-14" id="contacto">
         <div className="container-formulario md:grid md:grid-cols-2 md:max-w-7xl m-auto">
           <div className="item-formulario hidden md:block bg-blue-500 relative">
             <img
