@@ -1,6 +1,6 @@
 import CortoMetraje from "../../assets/images/google.mp4";
 import { IoIosArrowDown } from "react-icons/io";
-import Play from "../../assets/images/play.jpg";
+
 import { useEffect, useState } from "react";
 export const SectionVideo = () => {
   const [selected, setSelected] = useState(null);
@@ -50,7 +50,7 @@ export const SectionVideo = () => {
           <div className="item-video">
             <video
               src={CortoMetraje}
-              poster={Play}
+              controls
               lopp
               muted
               preload="metadata"
