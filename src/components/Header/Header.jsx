@@ -10,32 +10,23 @@ export const Header = () => {
     {
       id: 1,
       name: "Inicio",
-      link: "/",
-    },
-    {
-      id: 2,
-      name: "Curso Madrid",
       link: "/curso-madrid",
     },
+
     {
       id: 3,
-      name: "Beneficios",
-      link: "#beneficios",
+      name: "Razones",
+      link: "#razones",
     },
     {
       id: 4,
-      name: "Servicios",
-      link: "#servicios",
+      name: "Historia",
+      link: "#historia",
     },
     {
       id: 5,
-      name: "Academy",
-      link: "https://academy.dentarios.com.mx/",
-    },
-    {
-      id: 6,
-      name: "Testimonios",
-      link: "#testimonios",
+      name: "Contacto",
+      link: "#contacto",
     },
   ];
   return (
@@ -63,7 +54,6 @@ export const Header = () => {
                 >
                   <a
                     href={data.link}
-                    target={data.name === "Academy" ? "_blank" : "_parent"}
                     onClick={() => setIsOpenMenu(!isOpenMenu)}
                     rel="noreferrer noopener"
                   >
