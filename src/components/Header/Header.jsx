@@ -21,7 +21,7 @@ export const Header = () => {
     {
       id: 4,
       name: "Historia",
-      link: "#servicios",
+      link: "#historia",
     },
     {
       id: 5,
