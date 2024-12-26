@@ -51,7 +51,6 @@ export const SectionVideo = () => {
             <video
               src={CortoMetraje}
               poster={Play}
-              controls
               lopp
               muted
               preload="metadata"
