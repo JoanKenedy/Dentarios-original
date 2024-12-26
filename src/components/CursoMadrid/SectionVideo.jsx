@@ -52,6 +52,7 @@ export const SectionVideo = () => {
               controls
               lopp
               muted
+              preload="metadata"
               className="h-300px md:h-[500px]"
             ></video>
           </div>
